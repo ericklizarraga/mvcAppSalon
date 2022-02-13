@@ -1,0 +1,23 @@
+{
+    "name": "pc-ery/app-salon_php_mvc_js_sass",
+    "description": "Proyecto php8 mvc",
+    "type": "proyect",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "ericklizarraga",
+            "email": "ericklizarraga016@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.5",
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
